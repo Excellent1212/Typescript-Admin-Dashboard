@@ -5,5 +5,17 @@
       "config/**/*.js",
       "node_modules/**/*.ts"
     ]
+  },
+  "rules": {
+    "eofline": false,
+    "max-line-length": [true, 160],
+    "member-access": false,
+    "array-type": [false],
+    "ordered-imports": [false],
+    "object-literal-sort-keys": false,
+    "no-var-requires": false,
+    "interface-name": [
+      false
+    ]
   }
 }
