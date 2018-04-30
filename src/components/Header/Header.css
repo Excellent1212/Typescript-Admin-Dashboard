@@ -1,0 +1,9 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .header-title {
+    text-align: center;
+}
