@@ -1,4 +1,7 @@
 export default interface Item {
     id: number,
-    name: string,
+    firstName: string,
+    lastName: string,
+    birthday: string,
+    phoneNumber: string
 }
