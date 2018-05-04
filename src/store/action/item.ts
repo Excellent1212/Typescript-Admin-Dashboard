@@ -4,16 +4,21 @@ export enum ActionTypes {
     DELETE_ITEM = 'DELETE_ITEM'
 }
 
+let nextId = 0
+
 export interface AddItemAction { type: ActionTypes.ADD_ITEM, payload: {item: Item}}
 export interface DeleteItemAction { type: ActionTypes.DELETE_ITEM, payload: {itemIndex: number}}
 
-export function AddItem(name: string): AddItemAction {
+export function AddItem(firstName: string, lastName: string, birthday: string, phoneNumber: string): AddItemAction {
     return {
         type: ActionTypes.ADD_ITEM,
         payload: {
             item: {
-                id: 0,
-                'name': name
+                id: nextId++,
+                'firstName': firstName,
+                'lastName': lastName,
+                'birthday': birthday,
+                'phoneNumber': phoneNumber
             }
         }
     }
