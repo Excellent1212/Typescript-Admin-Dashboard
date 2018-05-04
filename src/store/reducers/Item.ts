@@ -1,11 +1,13 @@
 import Item from '../models/Item';
 import { ActionTypes, Action} from '../action/item';
 export interface State {
-    items: Item[]
+    items: Item[],
+    lastId: number
 }
 
 export const initialState: State = {
-    items: []
+    items: [],
+    lastId: 0
 }
 
 export function itemReducer( state: State = initialState, action: Action) {
