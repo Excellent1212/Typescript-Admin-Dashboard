@@ -1,0 +1,8 @@
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header .header-title {
+    text-align: center;
+}
