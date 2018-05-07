@@ -5,6 +5,7 @@
   "dependencies": {
     "@types/react-redux": "^5.0.19",
     "@types/redux-logger": "^3.0.6",
+    "antd": "^3.5.0",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-redux": "^5.0.7",
