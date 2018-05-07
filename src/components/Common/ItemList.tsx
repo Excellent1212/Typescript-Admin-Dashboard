@@ -8,10 +8,6 @@ interface Props {
     itemList: Item[]
 }
 
-// interface State {
-//
-// }
-
 class ItemList extends React.Component<Props, State> {
     constructor(props: Props) {
         super(props);

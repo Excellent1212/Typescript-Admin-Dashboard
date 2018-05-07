@@ -9,8 +9,6 @@ interface HeaderProps {
     headerTitle?: string
 }
 
-
-
 class HeaderComponent extends React.Component<HeaderProps> {
 
     public render() {

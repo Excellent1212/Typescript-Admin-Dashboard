@@ -57,8 +57,6 @@ class DataForm extends React.Component<Props, State> {
     }
 
     public render() {
-        // const { firstName } = this.state
-        // const { onFirstNameChange } = this
         return (
             <div>
                 <div>

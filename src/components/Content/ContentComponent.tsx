@@ -6,7 +6,7 @@ const { Content } = Layout;
 interface Props {
     value?: string
 }
-//
+
 interface State {
     status? : string
 }
