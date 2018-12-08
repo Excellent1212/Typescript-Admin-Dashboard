@@ -1,7 +1,7 @@
 React TypeScript Admin Dashboard
 
 ---Installation
-1. git clone https://github.com/Granddevv/React-TypeScript-Admin-Dashboard.git
+1. git clone https://github.com/Excellent1212/Typescript-Admin-Dashboard.git
 2. npm install
 3. npm start
 
